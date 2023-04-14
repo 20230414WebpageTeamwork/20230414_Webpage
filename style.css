@@ -9,7 +9,6 @@ body{
     text-align: center;
 }
 
-
 .flex {
     display:flex;
     justify-content:space-around;
@@ -26,6 +25,71 @@ body{
 #fourth div{
     padding-top:20px;
     padding-bottom:20px;
+
+.download_for_iOS{
+    padding-top: 15px;
+    color: white;
+    border-radius: 150px;
+    width: 170px; 
+    height: 40px; 
+    background-color: #4ecd9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_for_iOS:hover{
+    background-color: #136651;
+}
+
+.download_for_Mac{
+    color: white;
+    border-radius: 150px;
+    width: 170px; 
+    height: 40px; 
+    background-color: rgb(77, 115, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_for_Mac:hover{
+    background-color: #133266;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+}
+
+.download_for_iOS{
+    color: white;
+    border-radius: 150px;
+    width: 170px; 
+    height: 40px; 
+    background-color: #4ecd9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_for_iOS:hover{
+    background-color: #136651;
+}
+
+.download_for_Mac{
+    color: white;
+    border-radius: 150px;
+    width: 170px; 
+    height: 40px; 
+    background-color: rgb(77, 115, 241); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_for_Mac:hover{
+    background-color: #133266;
 }
 
 footer{
