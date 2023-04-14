@@ -96,3 +96,13 @@ footer{
     background-color: #F2F2F2; 
 }
 
+.parent{
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.child_box{
+    display: flex; 
+    justify-content: space-between;
+}
