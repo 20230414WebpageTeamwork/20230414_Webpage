@@ -14,6 +14,36 @@ body{
     justify-content: center;
 }
 
+.download_for_iOS{
+    color: white;
+    border-radius: 150px;
+    width: 170px; 
+    height: 40px; 
+    background-color: #4ecd9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_for_iOS:hover{
+    background-color: #136651;
+}
+
+.download_for_Mac{
+    color: white;
+    border-radius: 150px;
+    width: 170px; 
+    height: 40px; 
+    background-color: rgb(77, 115, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download_for_Mac:hover{
+    background-color: #133266;
+}
+
 footer{
     background-color: #F2F2F2; 
 }
