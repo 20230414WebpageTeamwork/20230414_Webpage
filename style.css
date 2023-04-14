@@ -9,6 +9,11 @@ body{
     text-align: center;
 }
 
+.container{
+    display: flex; 
+    justify-content: center;
+}
+
 footer{
     background-color: #F2F2F2; 
 }
