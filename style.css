@@ -10,3 +10,20 @@ body{
 }
 
 
+.flex {
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    text-align: center;
+    align-items:space-aroud;
+}
+
+#fourth_mid div{
+    display:flex;
+    justify-content:center;"
+}
+
+#fourth div{
+    padding-top:20px;
+    padding-bottom:20px;
+}
