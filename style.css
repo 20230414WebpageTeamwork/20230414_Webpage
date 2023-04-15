@@ -6,6 +6,9 @@ html {
 
 body{
   font-family: 'Bai Jamjuree', sans-serif; 
+  background-image: url("images/bg-header-desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container{
@@ -71,6 +74,10 @@ body{
 
 .dl_Mac:hover{
     background-color: #133266;
+}
+
+.cover{
+  
 }
 
 .cover_items{
