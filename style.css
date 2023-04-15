@@ -1,108 +1,206 @@
+/*HTML Structure*/
 html {
-    height: 100%;
-    width: 100%;
-    background-color: ghostwhite;
-    scroll-behavior: smooth;
-  }
+  height: 100%; 
+  width: 100%; 
+}
 
 body{
-    text-align: center;
-}
-
-.flex {
-    display:flex;
-    justify-content:space-around;
-    flex-direction:column;
-    text-align: center;
-    align-items:space-aroud;
-}
-
-#fourth_mid div{
-    display:flex;
-    justify-content:center;"
-}
-
-#fourth div{
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-.download_for_iOS{
-    color: white;
-    border-radius: 150px;
-    width: 170px; 
-    height: 40px; 
-    background-color: #4ecd9c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.download_for_iOS:hover{
-    background-color: #136651;
-}
-
-.download_for_Mac{
-    color: white;
-    border-radius: 150px;
-    width: 170px; 
-    height: 40px; 
-    background-color: rgb(77, 115, 241);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.download_for_Mac:hover{
-    background-color: #133266;
+  font-family: 'Bai Jamjuree', sans-serif; 
 }
 
 .container{
-    display: flex; 
-    justify-content: center;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
 }
 
-.download_for_iOS{
-    color: white;
-    border-radius: 150px;
-    width: 170px; 
-    height: 40px; 
-    background-color: #4ecd9c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.row{
+  padding-top: 20px; 
+  padding-bottom: 20px; 
 }
 
-.download_for_iOS:hover{
+.column{
+  padding-left: 5px; 
+  padding-right: 5px; 
+}
+
+/*Download Buttons*/
+.btn_parent{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.dl_iOS{
+  /*Button Design*/
+  display: flex; 
+  background-color: #4ecd9c; 
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px; 
+
+  /*Font*/
+  color: white;
+}
+
+.dl_iOS:hover{
     background-color: #136651;
 }
 
-.download_for_Mac{
-    color: white;
-    border-radius: 150px;
-    width: 170px; 
-    height: 40px; 
-    background-color: rgb(77, 115, 241); 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.dl_Mac{
+  /*Button Design*/
+  display: flex; 
+  background-color: rgb(77, 115, 241); 
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  justify-content: center; 
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px; 
+
+  /*Font*/
+  color: white;
 }
 
-.download_for_Mac:hover{
+.dl_Mac:hover{
     background-color: #133266;
 }
 
-footer{
-    background-color: #F2F2F2; 
+.cover_items{
+  margin: 30px;
+  padding-top: 20px; 
 }
 
-.parent{
-    display: flex; 
-    justify-content: space-between;
-
+/* Section 1 */
+#s1_col1, #s1_col2{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
 }
 
-.child_box{
-    display: flex; 
-    justify-content: space-between;
+.s1_list{
+  padding-top: 30px;
+  padding: 30px;
+}
+
+.s1_item{
+  height: 100px;
+  display: block;
+}
+
+/* Section 4 */
+.tools_parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tool{
+  width: 250px;
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tool_info{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool_img{
+  height: 80px;
+}
+
+.big_tech_parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.big_tech_child{
+  width: 200px; 
+  height: 70px; 
+  padding: 10px;
+  font-size: 14px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+#section_1, #section_2, #section_3, #section_4{
+  text-align: center;
+}
+
+#section_4 p{
+  font-size: 14px;
+  color: gray;
+}
+
+/*Footer*/
+#footer, footer{
+  display: flex;
+  justify-content: center;
+  background-color: #F2F2F2;
+  color: gray;
+  font-weight: bold;
+}
+
+#footer_left_col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer_right_col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_parent{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.flex_child{
+  width: 170px; 
+  padding-left: 30px;
+  padding-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.flex_child:hover{
+  color: blueviolet;
+}
+
+.social_media_parent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_media_child{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.img_icon:hover{
+  filter: invert(100%); 
+}
+
+.attribution{
+  font-size: 10px;
 }
