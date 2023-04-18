@@ -83,6 +83,11 @@ body{
   padding-top: 20px; 
 }
 
+.small_text{
+  color: gray; 
+  font-size: 14px; 
+}
+
 /* Section 1 */
 #s1_col1, #s1_col2{
   display:flex; 
@@ -93,6 +98,10 @@ body{
 .s1_list{
   padding-top: 30px;
   padding: 30px;
+}
+
+#s1_list_1 {
+  text-align: left; 
 }
 
 .s1_item{
