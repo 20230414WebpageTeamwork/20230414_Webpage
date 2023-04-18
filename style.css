@@ -49,6 +49,7 @@ body{
 
   /*Font*/
   color: white;
+  text-decoration: none;
 }
 
 .dl_iOS:hover{
@@ -70,6 +71,7 @@ body{
 
   /*Font*/
   color: white;
+  text-decoration: none;
 }
 
 .dl_Mac:hover{
